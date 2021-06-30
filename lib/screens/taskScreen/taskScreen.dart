@@ -25,7 +25,7 @@ class _TaskScreenState extends State<TaskScreen> {
                   imageUrl: TaskCubit.get(context)
                       .articleDataModel
                       .results[index]
-                      .multimedia[index]
+                      .multimedia[0]
                       .url,
                   context: context,
                   title: TaskCubit.get(context)
